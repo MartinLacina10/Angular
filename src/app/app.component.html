@@ -1,0 +1,4 @@
+<script src="app.component.spec.ts"></script>
+<app-header (visibilityChanged)="recieved($event)" [menu] = "menu"></app-header>
+<app-sidebar [visible] = "sidebarVisibility" [menu] = "menu"></app-sidebar>
+<router-outlet></router-outlet>
